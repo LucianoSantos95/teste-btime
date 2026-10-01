@@ -1,0 +1,10 @@
+# Requisições HTTP (Script 1 e Script 2)
+requests>=2.31,<3
+# Parsing de HTML (Script 1)
+beautifulsoup4>=4.12,<5
+# Fallback do Script 1 contra bloqueios/conteúdo renderizado por JavaScript.
+# Requer Google Chrome instalado; o ChromeDriver é baixado automaticamente.
+selenium>=4.20,<5
+
+# Testes automatizados
+pytest>=8,<9
